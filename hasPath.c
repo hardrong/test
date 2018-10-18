@@ -9,7 +9,7 @@ public:
         {
             for(int j = 0; j < cols; j++)
             {
-                if(ishasPath(matrix,rows,0,cols,0,str,length,arr))
+                if(ishasPath(matrix,rows,i,cols,,str,length,arr))
              return true;
             }
        
